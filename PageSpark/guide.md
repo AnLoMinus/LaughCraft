@@ -23,6 +23,7 @@ docs/
 1. **צור תיקיית `docs/`** בשורש המאגר.
 2. **העתק את התבניות**:
    - `_config.yml`, `assets/style.css`, `index.md`, `about.md`, `curriculum/index.md`, `curriculum/tracks.md` מתוך `PageSpark/templates/docs/` אל `docs/` במאגר.
+   - חדשים: `curriculum/laugh-deck.md`, `curriculum/workshops.md` לניווט מלא ונראות בלוג מקצועי.
 3. **פתח README לניווט** (רשות): קישור ישיר אל `/docs` יקל על צוות/קהל.
 4. **הפעל GitHub Pages**:
    - Settings → Pages → Source: *Deploy from a branch*

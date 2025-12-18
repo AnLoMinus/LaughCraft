@@ -5,6 +5,21 @@ title: LaughCraft Academy
 
 <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
 
+<div class="topbar">
+  <nav>
+    <div class="brand">LaughCraft Academy</div>
+    <div class="nav-links">
+      <a href="{{ '/' | relative_url }}">ראשי</a>
+      <a href="{{ '/curriculum/' | relative_url }}">מסלולי לימוד</a>
+      <a href="{{ '/curriculum/tracks' | relative_url }}">תרגולים</a>
+      <a href="{{ '/curriculum/laugh-deck' | relative_url }}">Laugh Deck</a>
+      <a href="{{ '/curriculum/workshops' | relative_url }}">סדנאות</a>
+      <a href="{{ '/about' | relative_url }}">אודות</a>
+    </div>
+    <span class="badge">RTL / Cyber</span>
+  </nav>
+</div>
+
 <div class="hero card">
   <h1>🎓 LaughCraft — אקדמיה לצחוקים</h1>
   <p>אקדמיית הצחוק עם שיטה ברורה: תזמון ⏱️, פאנץ׳ 🎯, נשימה 🌬️, וחיבור 🤝.</p>
@@ -47,4 +62,24 @@ title: LaughCraft Academy
       <li>לשלב קלפי Laugh Deck למיקרו-תרגול.</li>
     </ul>
   </div>
+</div>
+
+<div class="card">
+  <div class="section-title">
+    <span class="dot"></span>
+    <h2>🛰️ מודולים מתקדמים</h2>
+  </div>
+  <ul>
+    <li><strong>Beat Lab</strong> — תרגול קצב וצחוק עם מטרונום.</li>
+    <li><strong>Mind Flip</strong> — החלפת פרספקטיבה בין רציני למצחיק.</li>
+    <li><strong>Micro-Standup</strong> — 90 שניות, שלושה פאנצ׳ים, סגירת לופ.</li>
+  </ul>
+</div>
+
+<div class="card">
+  <div class="section-title">
+    <span class="dot"></span>
+    <h2>📢 מה חדש</h2>
+  </div>
+  <p>Laugh Deck מוכן להדפסה, מסלולי סדנאות לייב, ומסלול אונליין קצר של 7 ימים. קפצו לעמודים הרלוונטיים דרך הניווט העליון.</p>
 </div>
