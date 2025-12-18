@@ -1,24 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
-
-  <head>
-    <meta charset="UTF-8">
-    <title>😂 LaughCraft Academy אקדמיה לצחוקים • LC Method • SparKing Vibes ⚡</title>
-    <link rel="stylesheet" href="./style.css">
-
-  </head>
-    
-  <body>
-  <!doctype html>
 <html lang="he" dir="rtl">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>LaughCraft Academy 🎓 | AnLoMinus</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>😂 LaughCraft Academy אקדמיה לצחוקים • LC Method • SparKing Vibes ⚡</title>
   <meta name="description" content="LaughCraft Academy – אקדמיה לצחוקים: שיטה, מסלולים, תרגילים, דק קלפים ותוכן יצירתי." />
   <meta name="theme-color" content="#0b0f1a" />
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Ctext y='0.9em' font-size='90'%3E😂%3C/text%3E%3C/svg%3E">
-  <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Ctext y='0.9em' font-size='90'%3E😂%3C/text%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="./style.css" />
 </head>
 
 <body>
@@ -35,16 +24,18 @@
     </div>
 
     <nav class="nav">
-      <button class="nav-btn" data-open="about">אודות 🧩</button>
-      <button class="nav-btn" data-open="curriculum">מסלולים 📚</button>
-      <button class="nav-btn" data-open="methods">שיטה 🧪</button>
-      <button class="nav-btn" data-open="deck">דק קלפים 🃏</button>
+      <a class="nav-link active" href="index.html">ראשי</a>
+      <a class="nav-link" href="curriculum.html">מסלולי לימוד</a>
+      <a class="nav-link" href="tracks.html">תרגולים</a>
+      <a class="nav-link" href="laugh-deck.html">Laugh Deck</a>
+      <a class="nav-link" href="workshops.html">סדנאות</a>
+      <a class="nav-link" href="about.html">אודות</a>
       <a class="nav-link" href="https://github.com/AnLoMinus/LaughCraft/" target="_blank" rel="noreferrer">GitHub ⭐</a>
     </nav>
 
     <div class="actions">
-      <button id="toggleDir" class="chip" title="החלפת כיוון">RTL/LTR</button>
-      <button id="copyLink" class="chip" title="העתקת לינק">העתק לינק 🔗</button>
+      <button id="toggleDir" class="chip" title="החלפת כיוון" type="button">RTL/LTR</button>
+      <button id="copyLink" class="chip" title="העתקת לינק" type="button">העתק לינק 🔗</button>
     </div>
   </header>
 
@@ -56,8 +47,8 @@
           כאן לומדים צחוק מודע, בונה ומשחרר: תזמון ⏱️, אמת 🎯, חיבור 🤝, וחיוך שמרים את העולם ✨
         </p>
         <div class="hero-cta">
-          <button class="btn primary" data-open="curriculum">התחל מסלול עכשיו 🚀</button>
-          <button class="btn" data-open="methods">צפה בשיטה 🧠</button>
+          <a class="btn primary" href="curriculum.html">התחל מסלול עכשיו 🚀</a>
+          <button class="btn" data-open="methods" type="button">צפה בשיטה 🧠</button>
         </div>
 
         <div class="stats">
@@ -102,8 +93,8 @@
           <li>🎤 סטנדאפ תודעתי שמוציא אמת מצחיקה</li>
         </ul>
         <div class="inline-actions">
-          <button class="btn small" data-open="about">אודות 🧩</button>
-          <button class="btn small" data-open="deck">דק קלפים 🃏</button>
+          <button class="btn small" data-open="about" type="button">אודות 🧩</button>
+          <button class="btn small" data-open="deck" type="button">דק קלפים 🃏</button>
         </div>
       </section>
 
@@ -124,10 +115,10 @@
       <section class="card">
         <h2>תפריט מהיר ⚡</h2>
         <div class="quick">
-          <button class="quick-btn" data-open="curriculum">📚 מסלולים</button>
-          <button class="quick-btn" data-open="methods">🧪 שיטה</button>
-          <button class="quick-btn" data-open="deck">🃏 קלפים</button>
-          <a class="quick-btn" href="https://github.com/AnLoMinus/LaughCraft/issues" target="_blank" rel="noreferrer">🐞 הצעות / Issues</a>
+          <a class="quick-btn" href="curriculum.html">📚 מסלולים</a>
+          <a class="quick-btn" href="tracks.html">🧪 תרגולים</a>
+          <a class="quick-btn" href="laugh-deck.html">🃏 קלפים</a>
+          <a class="quick-btn" href="workshops.html">🎤 סדנאות</a>
         </div>
         <div class="divider"></div>
         <div class="rap">
@@ -140,6 +131,20 @@
           </p>
         </div>
       </section>
+    </section>
+
+    <section class="card">
+      <div class="section-title">
+        <span class="dot"></span>
+        <h2>תכנים מהירים</h2>
+      </div>
+      <p class="muted">כל הכפתורים מציגים תצוגה מהירה (Modal) המבוססת על קבצי HTML סטטיים.</p>
+      <div class="quick">
+        <button class="quick-btn" data-open="about" type="button">🧠 אודות</button>
+        <button class="quick-btn" data-open="curriculum" type="button">📚 מסלולים</button>
+        <button class="quick-btn" data-open="methods" type="button">🧪 שיטה</button>
+        <button class="quick-btn" data-open="deck" type="button">🃏 Laugh Deck</button>
+      </div>
     </section>
 
     <footer class="footer card">
@@ -165,15 +170,14 @@
     </footer>
   </main>
 
-  <!-- Modal -->
   <div id="modal" class="modal" aria-hidden="true">
     <div class="modal-backdrop" data-close="1"></div>
     <div class="modal-panel">
       <div class="modal-head">
         <div class="modal-title" id="modalTitle">תוכן</div>
         <div class="modal-actions">
-          <button class="chip" id="openRaw">פתח קובץ 📄</button>
-          <button class="chip danger" data-close="1">סגור ✖</button>
+          <button class="chip" id="openRaw" type="button">פתח קובץ 📄</button>
+          <button class="chip danger" data-close="1" type="button">סגור ✖</button>
         </div>
       </div>
       <div class="modal-body">
@@ -192,11 +196,6 @@
     </div>
   </div>
 
-  <script src="./assets/js/app.js"></script>
+  <script src="./script.js"></script>
 </body>
-</html>
-    <script  src="./script.js"></script>
-
-  </body>
-  
 </html>
