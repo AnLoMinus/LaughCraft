@@ -76,6 +76,11 @@ a:hover{opacity:.9; text-decoration: underline}
   cursor:pointer;
 }
 .nav-btn:hover, .nav-link:hover{background: rgba(255,255,255,.10)}
+.nav-link.active{
+  border-color: rgba(255,211,106,.45);
+  box-shadow: 0 6px 16px rgba(255,211,106,.18);
+  background: linear-gradient(135deg, rgba(255,211,106,.14), rgba(139,240,255,.12));
+}
 .actions{display:flex; gap:10px; align-items:center}
 
 .chip{
@@ -105,6 +110,8 @@ a:hover{opacity:.9; text-decoration: underline}
   padding: 18px;
   overflow:hidden;
 }
+.hero.single{grid-template-columns: 1fr}
+.page-hero{margin-bottom: 10px}
 .hero h1{margin:0 0 8px; font-size: 40px}
 .lead{margin:0 0 14px; color:var(--muted); line-height:1.6; font-size: 16px}
 .hero-cta{display:flex; gap:10px; flex-wrap:wrap}
@@ -178,6 +185,11 @@ a:hover{opacity:.9; text-decoration: underline}
   grid-template-columns: repeat(3, 1fr);
   gap: var(--gap);
 }
+.section-grid{
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--gap);
+}
 .card h2{margin:0; padding: 16px 16px 8px; font-size: 18px}
 .card h3{margin:0 0 8px; font-size: 15px}
 .bullets{margin:0; padding: 0 30px 16px; color:var(--muted); line-height:1.9}
@@ -229,6 +241,21 @@ a:hover{opacity:.9; text-decoration: underline}
 .quote{color:var(--text); font-weight:800; line-height:1.6}
 .muted{color:var(--muted)}
 .footer-bottom{margin-top: 12px; padding-top: 12px; border-top: 1px solid rgba(255,255,255,.10)}
+
+table{
+  width:100%;
+  border-collapse: collapse;
+  margin: 6px 0 12px;
+  color: var(--text);
+}
+th, td{
+  border:1px solid rgba(255,255,255,.12);
+  padding: 10px 12px;
+  text-align: right;
+  background: rgba(255,255,255,.04);
+}
+th{background: rgba(255,255,255,.08)}
+tr:nth-child(even) td{background: rgba(255,255,255,.03)}
 
 .modal{
   position:fixed; inset:0;
@@ -304,6 +331,7 @@ a:hover{opacity:.9; text-decoration: underline}
 
 @media (max-width: 980px){
   .hero{grid-template-columns: 1fr}
+  .section-grid{grid-template-columns: 1fr}
   .grid{grid-template-columns: 1fr}
   .footer-row{grid-template-columns: 1fr}
   .modal-body{grid-template-columns: 1fr}
